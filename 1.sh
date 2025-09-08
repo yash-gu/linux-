@@ -1,3 +1,26 @@
+Create a utility(FileManager.sh) that will be able to: 
+•⁠  ⁠Create a Directory
+•⁠  ⁠Delete a Directory
+•⁠  ⁠List Content of a Directory
+•⁠  ⁠Only listfiles in a Directory
+•⁠  ⁠Only listDirs in a Directory
+•⁠  ⁠listAll(files and directory)
+
+For example
+
+./FileManager.sh addDir /tmp dir1
+./FileManager.sh addDir /tmp dir2
+./FileManager.sh addDir /tmp dir3
+./FileManager.sh listFiles /tmp
+./FileManager.sh listDirs /tmp
+./FileManager.sh listAll /tmp
+./FileManager.sh deleteDir /tmp dir3
+
+
+
+
+
+
 #!/bin/bash
 
 print_usage() {
